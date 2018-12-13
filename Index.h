@@ -58,7 +58,7 @@ struct RangeSearchResult;
  */
 struct Index {
 
-    typedef long idx_t;    ///< all indices are this type
+    typedef int idx_t;    ///< all indices are this type
 
     int d;                 ///< vector dimension
     idx_t ntotal;          ///< total nb of indexed vectors
